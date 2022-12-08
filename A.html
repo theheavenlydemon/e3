@@ -1,0 +1,20 @@
+<script> function greet(){
+var name=document.getElementById('text').value; alert("Hello, "+name);
+document.getElementById('greet_paragraph').innerHTML="Hello, "+name;
+}
+</script>
+<input type='text' id='text' placeholder='Enter the Name' /><br>
+<button onclick='greet()' id='submit'>Submit</button><br><br>
+<p id='greet_paragraph'></p>
+<style> 
+html{
+ 
+    background:linear-gradient(to right,rgb(184, 255, 30) 0%,deepskyblue 5%);
+}
+p{
+ font-size:20px;
+}
+input,button{ margin-top:10px; padding:5px;
+ font-size:20px;
+}
+</style>
